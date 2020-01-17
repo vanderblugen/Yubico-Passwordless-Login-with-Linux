@@ -1,5 +1,6 @@
 # Yubico Passwordless Ubuntu Login
 Yubico Passwordless Ubuntu Login
+This is an awesome installation.  It doesn't require the key but make it optional but a `sufficient` attempt
 
 First off I did not come up with all of the information from this but did copy a large portion of it from [AskUbuntu](https://askubuntu.com/questions/1167691/passwordless-login-with-yubikey-5-nfc?newreg=d3833870cc924fedb49ce95d064f3a09)
 
@@ -9,13 +10,13 @@ sudo apt install libpam-u2f
 ```
 
 ### Create a mappings file
-Run this for each user
+Run this for each user.  Update `USERNAME` with the username of the appropriate user
 ```shell
 echo Press the button
 sudo pamu2fcfg -u USERNAME >> /etc/u2f_mappings
 ```
 
-### 
+### This finalizes the installation
 
 ```shell
 sudo su
