@@ -9,7 +9,7 @@ Please keep in mind that I did not come up with all of the information from this
 
 ### Install needed software to interface with the Yubico Key
 ```shell
-sudo apt install libpam-u2f
+sudo apt install libpam-u2f -y
 ```
 
 ### Create a mappings file
