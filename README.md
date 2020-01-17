@@ -10,8 +10,11 @@ First off I did not come up with all of the information from this but did copy a
 `sudo apt install libpam-u2f`
 
 ### Create a mappings file
+Run this for each user
+`echo Press the button`
 `pamu2fcfg -u USERNAME >> /etc/u2f_mappings`
-press the button
+
+### 
 
 `sudo su
 cd /etc/pam.d
