@@ -1,10 +1,7 @@
-# yubico_password_less_ubuntu
-
-# WORK IN PROGRESS
-
+# Yubico Passwordless Ubuntu Login
 Yubico Passwordless Ubuntu Login
 
-First off I did not come up with all of the information from this but did copy a large portion of it from [AskUbuntu] (https://askubuntu.com/questions/1167691/passwordless-login-with-yubikey-5-nfc?newreg=d3833870cc924fedb49ce95d064f3a09)
+First off I did not come up with all of the information from this but did copy a large portion of it from [AskUbuntu](https://askubuntu.com/questions/1167691/passwordless-login-with-yubikey-5-nfc?newreg=d3833870cc924fedb49ce95d064f3a09)
 
 ### Install needed software to interface with the Yubico Key
 ```shell
