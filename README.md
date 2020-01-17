@@ -17,6 +17,7 @@ sudo pamu2fcfg -u USERNAME >> /etc/u2f_mappings
 ```
 
 ### This finalizes the installation
+An error message may appear during this portion.  But that is normal under certain circumstances.
 
 ```shell
 sudo su
