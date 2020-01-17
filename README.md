@@ -1,8 +1,8 @@
 # Yubico Passwordless Ubuntu Login
 Yubico Passwordless Ubuntu Login
-This is an awesome installation.  It doesn't require the key but make it optional but a `sufficient` attempt
+This is an awesome installation.  It doesn't require the key but make it optional but a `sufficient` attempt and if the key isn't recognized then the password is required.  It even gives the option during sudo access.
 
-First off I did not come up with all of the information from this but did copy a large portion of it from [AskUbuntu](https://askubuntu.com/questions/1167691/passwordless-login-with-yubikey-5-nfc?newreg=d3833870cc924fedb49ce95d064f3a09)
+Please keep in mind that I did not come up with all of the information from this but did copy a large portion of it from [AskUbuntu](https://askubuntu.com/questions/1167691/passwordless-login-with-yubikey-5-nfc?newreg=d3833870cc924fedb49ce95d064f3a09)
 
 ### Install needed software to interface with the Yubico Key
 ```shell
