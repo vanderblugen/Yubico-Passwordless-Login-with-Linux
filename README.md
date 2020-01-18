@@ -19,6 +19,18 @@ echo Press the button
 sudo pamu2fcfg -u USERNAME >> /etc/u2f_mappings
 ```
 
+#### Modify the file
+The `/etc/u2f_mappings` file is going to need to be edited
+
+```shell
+sudo nano /etcu2f_mappings
+```
+
+Note these things when editing the file
+- Each user should have it's own line in the file
+- Single user with multiple keys is layed out
+    - `USERNAME:KEY:KEY:KEY`
+
 ### This finalizes the installation
 An error message may appear during this portion.  But that is normal under certain circumstances.
 
