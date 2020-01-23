@@ -49,4 +49,4 @@ exit
 
 # Enjoy
 
-## If anyone wants to contribue please reach out.
+## If anyone wants to contribute please reach out.
