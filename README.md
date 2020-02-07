@@ -1,9 +1,9 @@
 # Yubico Passwordless Ubuntu Login
 This is for setting up a Yubico Passwordless Ubuntu Login or Logins.
 
-This potentially can be used with any device that supports FIDO U2F.
+This setup is not for the Yubico key's alone and can be used with other FIDO keys.
 
-This is a really straight forward.  
+This is a fairly straight forward implementation.
 
 After this installation the key isn't required but the software will be a `sufficient` attempt and if the key isn't available then the password is required.  It even gives the key option during sudo access.
 
