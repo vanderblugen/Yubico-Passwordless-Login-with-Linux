@@ -9,6 +9,8 @@ After this installation the key isn't required but the software will be a `suffi
 
 Please keep in mind that I did not come up with all of the information from this but did copy a large portion of it from [AskUbuntu](https://askubuntu.com/questions/1167691/passwordless-login-with-yubikey-5-nfc?newreg=d3833870cc924fedb49ce95d064f3a09)
 
+This is a modification on the original Yubico instructions found [here](https://support.yubico.com/support/solutions/articles/15000011356-ubuntu-linux-login-guide-u2f).
+
 ### Install needed software to interface with the Yubico Key
 ```shell
 sudo apt install libpam-u2f -y
