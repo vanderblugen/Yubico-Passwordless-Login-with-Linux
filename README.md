@@ -27,7 +27,7 @@ sudo pamu2fcfg -u USERNAME >> /etc/u2f_mappings
 The `/etc/u2f_mappings` file is going to need to be edited
 
 ```shell
-sudo nano /etcu2f_mappings
+sudo nano /etc/u2f_mappings
 ```
 
 Note these things when editing the file
