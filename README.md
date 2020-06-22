@@ -42,13 +42,13 @@ An error message may appear during this portion.  But that is normal under certa
 sudo su
 cd /etc/pam.d
 echo 'auth sufficient pam_u2f.so authfile=/etc/u2f_mappings cue' > common-u2f
-for f in gdm-password lightdm sudo login; do
+for f in gdm-password lightdm sudo login polkit-1 xscreensaver; do
 mv $f $f~
 awk '/@include common-auth/ {print "@include common-u2f"}; {print}' $f~ > $f
 done
 exit
 ```
-
+Note if you don't use xscreensaver, take that out
 # Enjoy
 
 ## If anyone wants to contribute please reach out.
