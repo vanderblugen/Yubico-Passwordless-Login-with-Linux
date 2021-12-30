@@ -1,5 +1,5 @@
 # Yubico Passwordless Ubuntu Login
-This is for setting up a Yubico Passwordless Ubuntu Login or Logins.
+This is for setting up a Yubico Passwordless with Linux Ubuntu Login or Logins.
 
 This has also been tested and works on Raspberry Pi OS as well.
 
