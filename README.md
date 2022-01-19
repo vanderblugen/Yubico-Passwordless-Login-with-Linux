@@ -40,16 +40,11 @@ Note these things when editing the file
 ### This finalizes the installation
 An error message may appear during this portion.  But that is normal under certain circumstances.
 
-```shell
-sudo su
-cd /etc/pam.d
-echo 'auth sufficient pam_u2f.so authfile=/etc/u2f_mappings cue' > common-u2f
-for f in gdm-password lightdm sudo login polkit-1 xscreensaver; do
-mv $f $f~
-awk '/@include common-auth/ {print "@include common-u2f"}; {print}' $f~ > $f
-done
-exit
-```
+````shell
+wget https://raw.githubusercontent.com/vanderblugen/Yubico-Passwordless-Login-with-Linux/master/update-mapping.sh
+sudo chmod +x updadate-mapping.sh
+sudo ./update-mapping.sh
+````
 Note if you don't use xscreensaver, take that out
 # Enjoy
 
