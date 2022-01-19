@@ -42,7 +42,7 @@ An error message may appear during this portion.  But that is normal under certa
 
 ````shell
 wget https://raw.githubusercontent.com/vanderblugen/Yubico-Passwordless-Login-with-Linux/master/update-mapping.sh
-sudo chmod +x updadate-mapping.sh
+chmod +x updadate-mapping.sh
 sudo ./update-mapping.sh
 ````
 Note if you don't use xscreensaver, take that out
