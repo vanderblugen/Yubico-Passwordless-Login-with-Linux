@@ -45,7 +45,6 @@ wget https://raw.githubusercontent.com/vanderblugen/Yubico-Passwordless-Login-wi
 chmod +x updadate-mapping.sh
 sudo ./update-mapping.sh
 ````
-Note if you don't use xscreensaver, take that out
 # Enjoy
 
 ## If anyone wants to contribute please reach out.
