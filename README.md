@@ -19,11 +19,15 @@ sudo apt install libpam-u2f -y
 ```
 
 ### Create a mappings file
-Run this for each user.  Update `USERNAME` with the username of the appropriate user
+Run this for each user.  Update `USERNAME` with the username of the appropriate user.
+This script is contained in `buttonpress.sh`.
 ```shell
-echo Press the button
-sudo pamu2fcfg -u USERNAME >> /etc/u2f_mappings
+sudo -v
+echo Enter the PIN if required then Press the button
+sudo sh -c "pamu2fcfg -u USERNAME >> /etc/u2f_mappings"
 ```
+
+
 
 #### Modify the file
 The `/etc/u2f_mappings` file is going to need to be edited
@@ -38,7 +42,10 @@ Note these things when editing the file
     - `USERNAME:KEY:KEY:KEY`
 
 ### This finalizes the installation
-An error message may appear during this portion.  But that is normal under certain circumstances.
+It is normal, under certain circumstances to get an error during this portion.
+This script is contained in `finalize.sh`.
+This part does modify key authentication files for your system, only run this once.
+
 
 ````shell
 wget https://raw.githubusercontent.com/vanderblugen/Yubico-Passwordless-Login-with-Linux/master/update-mapping.sh
