@@ -42,8 +42,6 @@ Note these things when editing the file
     - `USERNAME:KEY:KEY:KEY`
 
 ### This finalizes the installation
-It is normal, under certain circumstances to get an error during this portion.
-This script is contained in `finalize.sh`.
 This part does modify key authentication files for your system, only run this once.
 
 
