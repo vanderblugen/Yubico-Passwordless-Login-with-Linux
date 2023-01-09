@@ -42,14 +42,9 @@ Note these things when editing the file
     - `USERNAME:KEY:KEY:KEY`
 
 ### This finalizes the installation
-This part does modify key authentication files for your system, only run this once.
+Run 'update-mapping.sh` only once.
+It does modify key authentication files for your system, run only once.
 
-
-````shell
-wget https://raw.githubusercontent.com/vanderblugen/Yubico-Passwordless-Login-with-Linux/master/update-mapping.sh
-chmod +x updadate-mapping.sh
-sudo ./update-mapping.sh
-````
 # Enjoy
 
 ## If anyone wants to contribute please reach out.
