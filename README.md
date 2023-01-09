@@ -42,8 +42,9 @@ Note these things when editing the file
     - `USERNAME:KEY:KEY:KEY`
 
 ### This finalizes the installation
-Run 'update-mapping.sh` only once.
-It does modify key authentication files for your system, run only once.
+Run `update-mapping.sh`.
+- It does modify key authentication files for your system
+- Run only once.
 
 # Enjoy
 
