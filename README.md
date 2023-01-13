@@ -1,7 +1,7 @@
 # Yubico Passwordless Ubuntu Login
-This is for setting up a Yubico Passwordless with Linux Ubuntu Login or Logins.
+This is for setting up a Yubico Passwordless Login with Linux.
 
-This has also been tested and works on Raspberry Pi OS as well.
+This has also been tested on Ubuntu and Raspberry Pi OS.
 
 This setup is not for the Yubico key's alone and can be used with other FIDO keys.
 
