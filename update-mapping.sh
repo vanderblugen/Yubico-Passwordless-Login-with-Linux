@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Verify running as root
+if [[ $(/usr/bin/id -u) -ne 0 ]]; then
+  echo "Please execute script as root"
+  exit 1
+f
+
+
 # List of services to update policy for
 SERVICES=(
   gdm-password
