@@ -13,7 +13,6 @@ SERVICES=(
   sudo
   sudo-i
   su
-  sddm
   chsh
   login
   polkit-1
