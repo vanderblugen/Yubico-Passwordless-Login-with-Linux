@@ -9,13 +9,20 @@ f
 
 # List of services to update policy for
 SERVICES=(
-  gdm-password
   lightdm
   sudo
+  sudo-i
+  su
+  sddm
+  chsh
   login
   polkit-1
   xscreensaver
-)
+  gdm-password
+  gdm-smartcard-sssd-or-password
+  ppp
+  unity
+}
 
 cd /etc/pam.d
 echo 'auth sufficient pam_u2f.so authfile=/etc/u2f_mappings cue' > common-u2f
