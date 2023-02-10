@@ -21,6 +21,7 @@ SERVICES=(
   gdm-smartcard-sssd-or-password
   ppp
   unity
+  cinnamon-screensaver
 )
 
 cd /etc/pam.d || exit 1
