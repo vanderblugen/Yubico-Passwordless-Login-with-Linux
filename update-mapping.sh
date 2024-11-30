@@ -26,7 +26,13 @@ SERVICES=(
 
 cd /etc/pam.d || exit 1
 echo 'auth sufficient pam_u2f.so authfile=/etc/u2f_mappings cue' > common-u2f
+
 for f in "${SERVICES[@]}"; do
+  # Starting with Ubuntu 24.04, polkit-1 is no longer in /etc/pam.d and has to be copied over first.
+  if [[ ! -f "polkit-1" && -f "/usr/lib/pam.d/polkit-1" ]]; then
+    cp /usr/lib/pam.d/polkit-1 .
+  fi
+
   if [ ! -f "$f" ]; then
     echo "[SKIP] $f does not exist"
     continue
